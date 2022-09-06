@@ -1,0 +1,32 @@
+h1, h2,h3{
+    text-align: center; 
+    
+ }
+ 
+ label {
+     text-align: center; 
+     
+ }
+ 
+ form {
+     text-align: center;
+ }
+
+ .form-control{
+    text-align: center;
+    width: 20%;
+    margin-left: 725px;
+    border: 6px solid black;
+    
+}
+.form-group {
+    text-align: center;
+    
+}
+
+#chat_history {
+    text-align: center;
+    
+}
+
+

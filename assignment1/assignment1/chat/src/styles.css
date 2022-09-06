@@ -1,0 +1,14 @@
+body {
+    background-color: #ced4da;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    margin-left: 345px;
+    
+}
+
+.btn.btn-secondary {
+    margin-left: 380px;
+}

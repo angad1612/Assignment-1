@@ -1,0 +1,13 @@
+<!-- HEADING -->
+<br><h1> Enter an existing username and email to login </h1> <br>
+
+<!-- LOGIN FORM, ONCE LOGGED IN, WILL BE SENT TO CHAT PAGE -->
+<form (submit)="loginUser($event)">
+  <div class="form-group">
+    <input [(ngModel)]='username' type="text" placeholder="Enter Username" name="username" id="username" class="form-control"><br>
+    <input [(ngModel)]='password' type="password" placeholder="Enter password"  name="password" id="password" class="form-control"><br>
+  </div>
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+
